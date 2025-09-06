@@ -1,8 +1,19 @@
 import { CoreMessage, JSONValue, Message } from 'ai'
 
+export type ProductResult = {
+  title: string
+  brand: string | null
+  color: string | null
+  size: string | null
+  price: string | null
+  image_url: string | null
+  source_url: string
+}
+
 export type SearchResults = {
   images: SearchResultImage[]
   results: SearchResultItem[]
+  products?: ProductResult[]
   number_of_results?: number
   query: string
 }

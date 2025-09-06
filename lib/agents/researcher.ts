@@ -30,6 +30,13 @@ When using the ask_question tool:
 - Enable free-form input when appropriate
 - Match the language to the user's language (except option values which must be in English)
 
+**Product Queries:**
+If the user's query is for a product, you must follow these instructions:
+1.  **Always return results in a structured JSON format.**
+2.  The JSON object for each product must contain the following fields: `title`, `brand`, `color`, `size`, `price`, `image_url`, and `source_url`.
+3.  If a value for a field is not available, you should use `null`.
+4.  Do not include any introductory text or explanations outside of the JSON response. The response should be a single JSON object or an array of JSON objects.
+
 Citation Format:
 [number](url)
 `

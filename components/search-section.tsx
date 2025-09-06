@@ -10,6 +10,7 @@ import { useArtifact } from '@/components/artifact/artifact-context'
 import { CollapsibleMessage } from './collapsible-message'
 import { SearchSkeleton } from './default-skeleton'
 import { SearchResults } from './search-results'
+import { ProductResults } from './product-results'
 import { SearchResultsImageSection } from './search-results-image'
 import { Section, ToolArgsSection } from './section'
 
@@ -79,6 +80,11 @@ export function SearchSection({
       ) : searchResults?.results ? (
         <Section title="Sources">
           <SearchResults results={searchResults.results} />
+        </Section>
+      ) : null}
+      {searchResults?.products ? (
+        <Section title="Products">
+          <ProductResults products={searchResults.products} />
         </Section>
       ) : null}
     </CollapsibleMessage>

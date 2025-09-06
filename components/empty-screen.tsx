@@ -4,20 +4,20 @@ import { Button } from '@/components/ui/button'
 
 const exampleMessages = [
   {
-    heading: 'What is DeepSeek R1?',
-    message: 'What is DeepSeek R1?'
+    heading: 'Beis Weekender Normal Size Less than $175',
+    message: 'Looking for Beis Weekender Normal Size Less than $175'
   },
   {
-    heading: 'Why is Nvidia growing rapidly?',
-    message: 'Why is Nvidia growing rapidly?'
+    heading: 'Puma Cali Black Size 8.5 White Less Than $100',
+    message: 'Looking for Puma Cali Black Size 8.5 White Less Than $100'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'Peppermayo Blue Eden Dress Size Medium Less Than $50',
+    message: 'Looking for Peppermayo Blue Eden Dress Size Medium Less Than $50'
   },
   {
-    heading: 'Summary: https://arxiv.org/pdf/2501.05707',
-    message: 'Summary: https://arxiv.org/pdf/2501.05707'
+    heading: 'Pastel Blue Labubu Keychain Less Than $40',
+    message: 'Looking for Pastel Blue Labubu Keychain Less Than $40'
   }
 ]
 export function EmptyScreen({
